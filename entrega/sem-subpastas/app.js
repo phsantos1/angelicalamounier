@@ -22988,7 +22988,7 @@ function Hero({ onStartBooking }) {
 		"aria-labelledby": "hero-heading",
 		className: "relative overflow-hidden bg-[#1E1410] text-[#FAF6F1]",
 		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-			className: "lg:absolute lg:inset-y-0 lg:right-0 lg:w-[60%] relative min-h-[340px] sm:min-h-[420px] lg:min-h-full overflow-hidden bg-[#2B1D17]",
+			className: "lg:absolute lg:inset-y-0 lg:right-0 lg:w-[60%] relative h-[320px] sm:h-[380px] lg:h-auto lg:min-h-full overflow-hidden bg-[#2B1D17]",
 			children: [
 				!imageError ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)(motion.img, {
 					src: HERO_MEDIA.src,
@@ -23007,7 +23007,7 @@ function Hero({ onStartBooking }) {
 						duration: .95,
 						ease: EASE_OUT_EXPO$3
 					},
-					className: "w-full h-full object-cover object-[center_22%]"
+					className: "w-full h-full object-cover object-[center_30%] lg:object-[center_44%]"
 				}) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 					className: "w-full h-full min-h-[340px] flex items-end p-8 bg-[#2B1D17] text-[#E4D6C5]",
 					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {

@@ -93,12 +93,8 @@
     --text-xs--line-height: calc(1 / .75);
     --text-sm: .875rem;
     --text-sm--line-height: calc(1.25 / .875);
-    --text-lg: 1.125rem;
-    --text-lg--line-height: calc(1.75 / 1.125);
     --text-xl: 1.25rem;
     --text-xl--line-height: calc(1.75 / 1.25);
-    --text-2xl: 1.5rem;
-    --text-2xl--line-height: calc(2 / 1.5);
     --font-weight-normal: 400;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
@@ -621,6 +617,10 @@
 
   .h-16 {
     height: calc(var(--spacing) * 16);
+  }
+
+  .h-\[320px\] {
+    height: 320px;
   }
 
   .h-full {
@@ -1264,6 +1264,10 @@
 
   .object-\[center_22\%\] {
     object-position: center 22%;
+  }
+
+  .object-\[center_30\%\] {
+    object-position: center 30%;
   }
 
   .p-1 {
@@ -2151,6 +2155,10 @@
       display: inline-flex;
     }
 
+    .sm\:h-\[380px\] {
+      height: 380px;
+    }
+
     .sm\:min-h-\[400px\] {
       min-height: 400px;
     }
@@ -2319,6 +2327,10 @@
       display: none;
     }
 
+    .lg\:h-auto {
+      height: auto;
+    }
+
     .lg\:min-h-\[500px\] {
       min-height: 500px;
     }
@@ -2357,6 +2369,10 @@
 
     .lg\:self-auto {
       align-self: auto;
+    }
+
+    .lg\:object-\[center_44\%\] {
+      object-position: center 44%;
     }
 
     .lg\:py-24 {

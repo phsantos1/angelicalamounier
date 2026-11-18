@@ -26,7 +26,7 @@ export function Hero({ onStartBooking }: HeroProps) {
       className="relative overflow-hidden bg-[#1E1410] text-[#FAF6F1]"
     >
       {/* Fotografia de fundo posicionada à direita com fusão suave para a esquerda (referência estrutural) */}
-      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-[60%] relative min-h-[340px] sm:min-h-[420px] lg:min-h-full overflow-hidden bg-[#2B1D17]">
+      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-[60%] relative h-[320px] sm:h-[380px] lg:h-auto lg:min-h-full overflow-hidden bg-[#2B1D17]">
         {!imageError ? (
           <motion.img
             src={HERO_MEDIA.src}
@@ -36,7 +36,7 @@ export function Hero({ onStartBooking }: HeroProps) {
             initial={{ opacity: 0, scale: 1.04 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.95, ease: EASE_OUT_EXPO }}
-            className="w-full h-full object-cover object-[center_22%]"
+            className="w-full h-full object-cover object-[center_30%] lg:object-[center_44%]"
           />
         ) : (
           <div className="w-full h-full min-h-[340px] flex items-end p-8 bg-[#2B1D17] text-[#E4D6C5]">
